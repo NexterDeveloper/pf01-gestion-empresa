@@ -16,5 +16,10 @@ namespace GestionEmpresa
             this.nombre = nombre;
             this.precio = precio;
         }
+
+        public void MostrarDatos()
+        {
+            Console.WriteLine($"Producto: {nombre}, Precio: {precio} €");
+        }
     }
 }
