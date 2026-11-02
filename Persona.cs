@@ -16,5 +16,10 @@ namespace GestionEmpresa
             this.nombre = nombre;
             this.edad = edad;
         }
+
+        public void MostrarDatos()
+        {
+            Console.WriteLine($"Nombre: {nombre}, Edad: {edad}");
+        }
     }
 }
