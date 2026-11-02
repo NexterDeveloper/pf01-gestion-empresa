@@ -10,6 +10,12 @@ namespace GestionEmpresa
     {
         static void Main(string[] args)
         {
+            Persona persona2 = new Persona("Luis", 16);
+            persona2.MostrarDatos();
+            if (persona2.EsMayorDeEdad())
+                Console.WriteLine("Es mayor de edad");
+            else
+                Console.WriteLine("Es menor de edad");
         }
     }
 }
