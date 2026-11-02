@@ -21,5 +21,10 @@ namespace GestionEmpresa
         {
             Console.WriteLine($"Nombre: {nombre}, Edad: {edad}");
         }
+
+        public bool EsMayorDeEdad()
+        {
+            return edad >= 18;
+        }
     }
 }
