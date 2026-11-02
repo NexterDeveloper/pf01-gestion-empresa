@@ -21,5 +21,14 @@ namespace GestionEmpresa
         {
             Console.WriteLine($"Nombre: {nombre}, Edad: {edad}");
         }
+        public string GetNombre()
+        {
+            return nombre;
+        }
+
+        public void SetNombre(string nuevoNombre)
+        {
+            nombre = nuevoNombre;
+        }
     }
 }
