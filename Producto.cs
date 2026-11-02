@@ -1,0 +1,25 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace GestionEmpresa
+{
+    public class Producto
+    {
+        private string nombre;
+        private double precio;
+
+        public Producto(string nombre, double precio)
+        {
+            this.nombre = nombre;
+            this.precio = precio;
+        }
+
+        public void MostrarDatos()
+        {
+            Console.WriteLine($"Producto: {nombre}, Precio: {precio} €");
+        }
+    }
+}
