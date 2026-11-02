@@ -30,5 +30,10 @@ namespace GestionEmpresa
         {
             nombre = nuevoNombre;
         }
+
+        public bool EsMayorDeEdad()
+        {
+            return edad >= 18;
+        }
     }
 }
