@@ -10,5 +10,11 @@ namespace GestionEmpresa
     {
         private string nombre;
         private double precio;
+
+        public Producto(string nombre, double precio)
+        {
+            this.nombre = nombre;
+            this.precio = precio;
+        }
     }
 }
